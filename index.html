@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Restaurant Hours</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Restaurant Hours</h1>
+    <h2>Find Restaurants That Are Open When You Need Them!</h2>
+  </header>
+
+  <main>
+    <form action="">
+      <label for="date">Date<span class="help"> (YYYY-MM-DD)</span>:</label>
+      <input type="date" name="date" id="date" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" placeholder="YYYY-MM-DD">
+
+      <p class="error hidden">
+        Please enter a valid date in the form YYYY-MM-DD.
+      </p>
+
+      <label for="time">Time<span class="help"> (e.g. 12:00 AM)</span>:</label>
+      <input type="time" name="time" id="time" required pattern="[0-9]{1,2}:{0,1}[0-9]{0,2}\s{0,1}(AM|am|PM|pm){0,1}" placeholder="12:00 AM">
+
+      <p class="error hidden">
+        Please enter a valid time of day, such as 12:00 AM.
+      </p>
+
+      <button type="submit">Search</button>
+    </form>
+
+    <ul></ul>
+  </main>
+</body>
+
+</html>
