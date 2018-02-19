@@ -111,6 +111,8 @@ const display = (output) => {
  *    }
  * });
  * 
+ * Note: Moments given only a time will use the current date as the date.
+ * 
  * @param {Array<String>} times The string representations of
  *    the restauraunt's schedule.
  * @param {Array<String>} weekdays The days of the week, by short name.
