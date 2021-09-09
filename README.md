@@ -8,8 +8,4 @@ a date and time.  Display the restaurants open during that day and time.
 
 ## Running locally
 
-Since this uses the
-[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-to retrieve the rest_hours.json file, if you try to run this by simply opening
-index.html it will not work. Instead, you can run this using the npm module
-[live-server](https://www.npmjs.com/package/live-server).
+`npm run serve`

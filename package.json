@@ -1,0 +1,23 @@
+{
+  "name": "rest-hours",
+  "version": "1.0.0",
+  "description": "This is a simple coding exercise. Given a list of restaurants (found in rest_hours.json), write a simple UI wherein the user can input a date and time. Display the restaurants open during that day and time.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cameron637/rest-hours.git"
+  },
+  "author": "Cameron Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cameron637/rest-hours/issues"
+  },
+  "homepage": "https://github.com/Cameron637/rest-hours#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
